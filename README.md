@@ -1,27 +1,51 @@
 🌿 Plant Disease Lesion Segmentation and Severity Estimation using U-Net
+📌 Overview
 
-This project presents a deep learning–based framework for automatic plant disease lesion segmentation and disease severity estimation using a custom U-Net architecture implemented in PyTorch. The model was trained on a leaf disease dataset containing approximately 3,528 annotated images along with corresponding lesion masks.
+This project presents a deep learning–based framework for automatic plant disease lesion segmentation and disease severity estimation using a custom U-Net architecture implemented in PyTorch. The model was trained on approximately 3,528 annotated plant leaf images with corresponding lesion masks to accurately identify diseased regions and estimate infection severity.
 
-The proposed system effectively learns the spatial and morphological characteristics of diseased leaf regions and delivers accurate segmentation results for various plant disease patterns. To improve robustness and reduce overfitting, multiple data augmentation techniques were applied, including image flipping, rotation, brightness adjustment, and scaling.
-
-The framework utilizes a hybrid loss function combining Tversky Loss and Binary Cross Entropy (BCE) Loss, which significantly improves segmentation performance for small, irregular, and imbalanced lesion regions.
+The framework helps automate plant disease analysis for smart agriculture and precision farming applications by reducing manual inspection efforts and improving disease monitoring efficiency.
 
 🚀 Key Features
-Automatic plant disease lesion segmentation
-Disease severity estimation based on infected area
-Custom U-Net architecture in PyTorch
-Advanced augmentation pipeline for better generalization
-Hybrid Tversky + BCE Loss for precise segmentation
-Heatmap and mask visualization support
-Supports training, evaluation, and inference workflows
-📊 Model Performance
+🌱 Automatic plant disease lesion segmentation
+📊 Disease severity estimation
+🧠 Custom U-Net architecture using PyTorch
+🔄 Advanced data augmentation techniques
+🎯 Accurate segmentation of irregular lesion regions
+🔥 Heatmap and mask visualization
+📈 Strong model generalization and performance
+🧠 Methodology
+
+The proposed system follows a complete deep learning pipeline for semantic segmentation:
+
+Dataset Preprocessing
+Image resizing and normalization
+Mask preparation
+Data Augmentation
+Horizontal & vertical flipping
+Rotation
+Brightness adjustment
+Scaling and transformations
+Model Training
+Custom U-Net architecture
+PyTorch implementation
+Loss Function
+Tversky Loss
+Binary Cross Entropy (BCE) Loss
+Prediction & Severity Estimation
+Lesion mask prediction
+Infected area calculation
+Disease severity percentage estimation
+📊 Results
 
 The trained model achieved strong segmentation performance with:
 
-High lesion detection accuracy
-Improved boundary localization
-Better handling of small and complex disease spots
-Reliable disease severity estimation from segmented regions
+Accurate lesion boundary detection
+Reliable disease severity estimation
+Better segmentation of small and irregular disease spots
+Improved visualization using predicted masks and heatmaps
+
+The project demonstrates the effectiveness of deep learning techniques for automated plant disease monitoring and precision agriculture applications.
+
 🛠️ Technologies Used
 Python
 PyTorch
@@ -29,25 +53,7 @@ OpenCV
 NumPy
 Matplotlib
 Albumentations
-📂 Project Workflow
-Dataset preprocessing and annotation handling
-Data augmentation and normalization
-U-Net model training
-Lesion mask prediction
-Disease severity calculation
-Visualization and evaluation
-🌱 Applications
-Smart agriculture
-Precision farming
-Early plant disease detection
-Automated crop monitoring
-Agricultural AI systems
-🔮 Future Improvements
-Multi-class disease segmentation
-Real-time mobile deployment
-Edge AI integration for IoT devices
-Transformer-based segmentation models
-Cloud-based agricultural monitoring dashboard
-📌 Conclusion
 
-This project demonstrates the effectiveness of deep learning techniques for automated plant disease analysis. The proposed U-Net–based framework provides accurate lesion segmentation and reliable disease severity estimation, making it a valuable solution for intelligent agricultural monitoring and precision farming applications.
+
+🖼️ Output Visualizations
+<img width="700" alt="Original Image" src="image.png">
