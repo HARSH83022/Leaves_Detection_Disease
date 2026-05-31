@@ -56,4 +56,38 @@ Albumentations
 
 
 🖼️ Output Visualizations
+
+
+
+
 <img width="700" alt="Original Image" src="image.png">
+
+
+
+
+
+
+
+
+
+
+📥 Dataset
+
+Due to GitHub file size limitations, the dataset is provided separately.
+
+🌱 Applications
+Smart Agriculture
+Precision Farming
+Crop Disease Monitoring
+AI-Based Agricultural Systems
+Automated Plant Health Analysis
+🔮 Future Scope
+Multi-class disease segmentation
+Transformer-based segmentation architectures
+Real-time mobile deployment
+IoT-based smart farming integration
+Cloud dashboard for agricultural analytics
+
+📌 Conclusion
+
+This project successfully demonstrates a deep learning–based approach for automated plant disease lesion segmentation and disease severity estimation using U-Net architecture. The framework provides accurate segmentation results and can serve as a scalable AI solution for intelligent agricultural monitoring and precision farming systems.
